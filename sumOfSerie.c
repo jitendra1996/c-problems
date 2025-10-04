@@ -15,5 +15,5 @@ int main(){
 
 int sumOfSeries(int num,int power){
 	if(power == 0) return 1;
-	return pow(num,power) + sumOfSeries(num,power-1);
+	return (int)pow(num,power) + sumOfSeries(num,power-1);
 }
